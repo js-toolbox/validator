@@ -13,7 +13,7 @@
     "author": "Willem-Jaap <https://github.com/Willem-Jaap>",
     "repository": {
         "type": "git",
-        "url": "git:///github.com/js-toolbox/validator"
+        "url": "git://github.com/js-toolbox/validator"
     },
     "license": "MIT",
     "keywords": [
