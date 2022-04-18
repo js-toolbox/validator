@@ -2,12 +2,14 @@
     "name": "@jstoolbox/validator",
     "version": "1.1.0",
     "description": "Collection of functions for validating a variable.",
-    "main": "src/index.ts",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
     "files": [
         "dist/**/*"
     ],
     "scripts": {
         "build": "tsc",
+        "prepublish": "tsc",
         "test": "jest"
     },
     "author": "Willem-Jaap <https://github.com/Willem-Jaap>",
@@ -26,6 +28,7 @@
         "@types/jest": "^27.4.1",
         "jest": "^27.5.1",
         "ts-jest": "^27.1.4",
+        "ts-node": "^10.7.0",
         "typescript": "^4.6.3"
     }
 }
