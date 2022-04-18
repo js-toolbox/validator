@@ -1,6 +1,6 @@
 {
     "name": "@jstoolbox/validator",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "description": "Collection of functions for validating a variable.",
     "main": "src/index.ts",
     "files": [
